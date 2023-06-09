@@ -9,6 +9,7 @@ import './App.css'
 import { StoreProvider } from './StoreContext'; 
 import Navbar from './Navbar/Navbar';
 import Create from './Create/Create';
+import Search from './Search/Search';
 
 const App = () => {
   return (
@@ -19,6 +20,7 @@ const App = () => {
           <Routes>
             <Route path="/" element={<Home />} />
             <Route path="/create" element={<Create/>} />
+            <Route path="/search" element={<Search/>} />
           </Routes>
         </Router>
 
