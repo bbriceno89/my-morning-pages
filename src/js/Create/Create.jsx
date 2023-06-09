@@ -10,9 +10,8 @@ const Create = () => {
     const postBody = {
         title,
         topic,
-        body,
         created_date: new Date().toLocaleString("en-US", {hour12: false}),
-        
+        body,
     };
     createPost(postBody);
   });
@@ -28,16 +27,13 @@ const Create = () => {
           <label htmlFor="topic">Topic</label>
           <input onChange={e => setTopic(e.target.value)} className="text-background" name="topic" />
         </div>
-        <label onChange={e => setBody(e.target.value)} className="body" htmlFor="Body">
-          Make a new Entry
-        </label>
-        <textarea
-          className="Bodytext-background"
-          name="Body"
-        ></textarea>
+        <div>
+        <label htmlFor="Body"> Write </label>
+        <input onChange={e => setBody(e.target.value)} className="journalEntry_label" name="body" />
         <button className="button" type="submit">
           Create
         </button>
+        </div>
       </form>
     </section>
   );

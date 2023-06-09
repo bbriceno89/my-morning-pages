@@ -2,45 +2,10 @@
   "posts": [
     {
       "id": 0,
-      "title": "Test",
-      "created_date": "date",
-      "topic": "topic",
+      "title": "Day 0",
+      "created_date": "",
+      "topic": "Carpe Diem",
       "body": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quibusdam sit quod in ea! Voluptatibus repellendus, ipsam ad corporis dolorem eum a reiciendis recusandae asperiores, nam laborum adipisci inventore odio corrupti?"
-    },
-    {
-      "title": "Isaiah",
-      "topic": "JSON",
-      "created_date": "6/9/2023, 24:09:45",
-      "body": "",
-      "id": 1
-    },
-    {
-      "title": "Monday",
-      "topic": "Tired",
-      "created_date": "6/9/2023, 24:44:57",
-      "body": "",
-      "id": 2
-    },
-    {
-      "title": "",
-      "topic": "",
-      "created_date": "6/9/2023, 24:45:29",
-      "body": "",
-      "id": 3
-    },
-    {
-      "title": "",
-      "topic": "",
-      "created_date": "6/9/2023, 01:05:25",
-      "body": "",
-      "id": 4
-    },
-    {
-      "title": "",
-      "topic": "",
-      "body": "",
-      "created_date": "6/9/2023, 01:07:33",
-      "id": 5
     }
   ]
 }
